@@ -18,7 +18,7 @@ int main(void)
 {
     int n,m;
     cin>>n>>m;
-    n++;
+    n = n+1;
     bool flag = true;
     while(n<=m && flag)
     {
@@ -27,7 +27,7 @@ int main(void)
         else
             n++;
     }
-    
+
     if(!flag)
         if(n == m)
             cout<<"YES"<<endl;

@@ -3,7 +3,7 @@ using namespace std;
 int main(void)
 {
     long long int i,j,k;
-    long long int sum=0,count=0;
+    long long int sum=0,c=0;
     long long int n,b,d;
 
     cin>>n>>b>>d;
@@ -20,9 +20,9 @@ int main(void)
         if(sum>d)
         {
             sum=0;
-            count++;
+            c++;
         }
     }
-    cout<<count;
+    cout<<c;
     return 0;
 }
